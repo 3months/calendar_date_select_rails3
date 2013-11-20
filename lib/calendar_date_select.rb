@@ -8,11 +8,11 @@ require 'active_support'
 module CalendarDateSelect
 
   Files = [
-    '/public',
-    '/public/javascripts/calendar_date_select',
-    '/public/stylesheets/calendar_date_select', 
-    '/public/images/calendar_date_select',
-    '/public/javascripts/calendar_date_select/locale'
+    '/vendor',
+    '/vendor/javascripts/calendar_date_select',
+    '/vendor/stylesheets/calendar_date_select',
+    '/vendor/images/calendar_date_select',
+    '/vendor/javascripts/calendar_date_select/locale'
   ]
 
   class Railtie < ::Rails::Railtie
@@ -21,7 +21,7 @@ module CalendarDateSelect
       ActionView::Helpers::FormHelper.send(:include, CalendarDateSelect::FormHelpers)
       ActionView::Base.send(:include, CalendarDateSelect::FormHelpers)
       ActionView::Base.send(:include, CalendarDateSelect::IncludesHelper)
-  
+
       ActionView::Helpers::InstanceTag.class_eval do
         class << self; alias new_with_backwards_compatibility new; end #TODO: singleton_class.class_eval
       end

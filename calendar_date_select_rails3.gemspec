@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{calendar_date_select}
+  s.name = %q{calendar_date_select_rails3}
   s.version = "1.16.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Shih-gian Lee", "Enrique Garcia Cota (kikito)", "Tim Charper", "Lars E. Hoeg"]
-  s.date = %q{2010-03-29}
-  s.description = %q{Calendar date picker for rails}
+  s.authors = ["Shih-gian Lee", "Enrique Garcia Cota (kikito)", "Tim Charper", "Lars E. Hoeg", "Charles Peach"]
+  s.date = %q{2013-11-21}
+  s.description = %q{Calendar date picker for rails 3}
   s.email = %q{}
   s.extra_rdoc_files = [
     "README.txt"
@@ -35,51 +35,51 @@ Gem::Specification.new do |s|
      "lib/calendar_date_select/calendar_date_select.rb",
      "lib/calendar_date_select/form_helpers.rb",
      "lib/calendar_date_select/includes_helper.rb",
-     "public/blank_iframe.html",
-     "public/images/calendar_date_select/calendar.gif",
-     "public/javascripts/calendar_date_select/calendar_date_select.js",
-     "public/javascripts/calendar_date_select/format_american.js",
-     "public/javascripts/calendar_date_select/format_danish.js",
-     "public/javascripts/calendar_date_select/format_db.js",
-     "public/javascripts/calendar_date_select/format_euro_24hr.js",
-     "public/javascripts/calendar_date_select/format_euro_24hr_ymd.js",
-     "public/javascripts/calendar_date_select/format_finnish.js",
-     "public/javascripts/calendar_date_select/format_hyphen_ampm.js",
-     "public/javascripts/calendar_date_select/format_iso_date.js",
-     "public/javascripts/calendar_date_select/format_italian.js",
-     "public/javascripts/calendar_date_select/locale/ar.js",
-     "public/javascripts/calendar_date_select/locale/da.js",
-     "public/javascripts/calendar_date_select/locale/de.js",
-     "public/javascripts/calendar_date_select/locale/es.js",
-     "public/javascripts/calendar_date_select/locale/fi.js",
-     "public/javascripts/calendar_date_select/locale/fr.js",
-     "public/javascripts/calendar_date_select/locale/it.js",
-     "public/javascripts/calendar_date_select/locale/nl.js",
-     "public/javascripts/calendar_date_select/locale/pl.js",
-     "public/javascripts/calendar_date_select/locale/pt.js",
-     "public/javascripts/calendar_date_select/locale/ru.js",
-     "public/javascripts/calendar_date_select/locale/sl.js",
-     "public/stylesheets/calendar_date_select/blue.css",
-     "public/stylesheets/calendar_date_select/default.css",
-     "public/stylesheets/calendar_date_select/green.css",
-     "public/stylesheets/calendar_date_select/plain.css",
-     "public/stylesheets/calendar_date_select/red.css",
-     "public/stylesheets/calendar_date_select/silver.css",
+     "vendor/blank_iframe.html",
+     "vendor/images/calendar_date_select/calendar.gif",
+     "vendor/javascripts/calendar_date_select/calendar_date_select.js",
+     "vendor/javascripts/calendar_date_select/format_american.js",
+     "vendor/javascripts/calendar_date_select/format_danish.js",
+     "vendor/javascripts/calendar_date_select/format_db.js",
+     "vendor/javascripts/calendar_date_select/format_euro_24hr.js",
+     "vendor/javascripts/calendar_date_select/format_euro_24hr_ymd.js",
+     "vendor/javascripts/calendar_date_select/format_finnish.js",
+     "vendor/javascripts/calendar_date_select/format_hyphen_ampm.js",
+     "vendor/javascripts/calendar_date_select/format_iso_date.js",
+     "vendor/javascripts/calendar_date_select/format_italian.js",
+     "vendor/javascripts/calendar_date_select/locale/ar.js",
+     "vendor/javascripts/calendar_date_select/locale/da.js",
+     "vendor/javascripts/calendar_date_select/locale/de.js",
+     "vendor/javascripts/calendar_date_select/locale/es.js",
+     "vendor/javascripts/calendar_date_select/locale/fi.js",
+     "vendor/javascripts/calendar_date_select/locale/fr.js",
+     "vendor/javascripts/calendar_date_select/locale/it.js",
+     "vendor/javascripts/calendar_date_select/locale/nl.js",
+     "vendor/javascripts/calendar_date_select/locale/pl.js",
+     "vendor/javascripts/calendar_date_select/locale/pt.js",
+     "vendor/javascripts/calendar_date_select/locale/ru.js",
+     "vendor/javascripts/calendar_date_select/locale/sl.js",
+     "vendor/stylesheets/calendar_date_select/blue.css",
+     "vendor/stylesheets/calendar_date_select/default.css",
+     "vendor/stylesheets/calendar_date_select/green.css",
+     "vendor/stylesheets/calendar_date_select/plain.css",
+     "vendor/stylesheets/calendar_date_select/red.css",
+     "vendor/stylesheets/calendar_date_select/silver.css",
      "spec/calendar_date_select/calendar_date_select_spec.rb",
      "spec/calendar_date_select/form_helpers_spec.rb",
      "spec/calendar_date_select/includes_helper_spec.rb",
      "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/timcharper/calendar_date_select}
+  s.homepage = %q{http://github.com/mwanas/calendar_date_select_rails3}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{Calendar date picker for rails}
+  s.summary = %q{Calendar date picker for rails 3}
   s.test_files = [
     "spec/calendar_date_select/calendar_date_select_spec.rb",
-     "spec/calendar_date_select/form_helpers_spec.rb",
-     "spec/calendar_date_select/includes_helper_spec.rb",
-     "spec/spec_helper.rb"
+    "spec/calendar_date_select/form_helpers_spec.rb",
+    "spec/calendar_date_select/includes_helper_spec.rb",
+    "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
